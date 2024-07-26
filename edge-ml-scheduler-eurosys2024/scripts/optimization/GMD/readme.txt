@@ -1,0 +1,1 @@
+Change model name variable and should run provided you have created and mentioned data paths. Required obs data for a given model, refer to data_gen for data_final scripts.

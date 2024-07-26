@@ -1,0 +1,1 @@
+Run the notebook sequentially for accurate plots. All data + extra is there in this folder. mobnet_50_pareto(,1,2,3,4) represent different random samplings, by default 1 is used everywhere.

@@ -1,0 +1,1 @@
+All data within notebook as points, run sequentially to get correct plots.

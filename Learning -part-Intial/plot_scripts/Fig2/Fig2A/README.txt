@@ -1,0 +1,1 @@
+Latest plot in Paper is the last cell in the plot.ipynb notebook. Run Everything sequentially to ensure no errors.

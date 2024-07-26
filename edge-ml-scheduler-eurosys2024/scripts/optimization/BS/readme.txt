@@ -1,0 +1,1 @@
+Change model name and run file. Required obs data (modify path as well if required) for a given model, refer to data_gen for data_final scripts.

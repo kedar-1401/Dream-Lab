@@ -1,0 +1,30 @@
+80:10:10
+Validation Mean Absolute Percentage Error: 0.0803
+Test Mean Absolute Percentage Error: 0.0812
+Validation Mean Absolute Percentage Error: 0.117
+Test Mean Absolute Percentage Error: 0.116
+Energy
+Validation Mean Absolute Percentage Error: 0.0371
+Test Mean Absolute Percentage Error: 0.0362
+Validation Mean Absolute Percentage Error: 0.0363
+Test Mean Absolute Percentage Error: 0.0356
+
+85:5:10
+Time
+Validation Mean Absolute Percentage Error: 0.0895
+Test Mean Absolute Percentage Error: 0.0883
+Energy
+Validation Mean Absolute Percentage Error: 0.0352
+Test Mean Absolute Percentage Error: 0.0341
+Validation Mean Absolute Percentage Error: 0.0386
+Test Mean Absolute Percentage Error: 0.0378
+
+80:10:10 (Resnet)
+Time
+Validation Mean Absolute Percentage Error: 0.0919
+Test Mean Absolute Percentage Error: 0.0934
+Energy
+Validation Mean Absolute Percentage Error: 0.142
+Test Mean Absolute Percentage Error: 0.142
+Validation Mean Absolute Percentage Error: 0.0405
+Test Mean Absolute Percentage Error: 0.0406

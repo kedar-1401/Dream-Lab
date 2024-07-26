@@ -1,0 +1,2 @@
+Fig 7 a,b,c as resnet, mobnet, yolo time. Change the data path to point to local 'data' folder. For example:
+r'C:\Users\saisa\Documents\IIScNew\IIScBack\test\test-updated\test\barplots_new\barplots_new\data\nn_modeling\NN_mobnet_MAPE_all.csv' will be r'data\nn_modeling\NN_mobnet_MAPE_all.csv'

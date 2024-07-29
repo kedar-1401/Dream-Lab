@@ -1,0 +1,163 @@
+Reference Time is 1717176538.5368712
+No of workers is 4
+Prefetch factor is 2
+Batch size is  16
+New https://pypi.org/project/ultralytics/8.2.27 available 😃 Update with 'pip install -U ultralytics'
+Ultralytics YOLOv8.2.25 🚀 Python-3.8.10 torch-2.3.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24257MiB)
+[34m[1mengine/trainer: [0mtask=detect, mode=train, model=yolov8n.pt, data=/home/saisamarth/kedar/Yolo/coco25.yaml, epochs=5, time=None, patience=100, batch=16, imgsz=320, save=False, save_period=-1, cache=False, device=0, workers=0, project=None, name=train, exist_ok=False, pretrained=False, optimizer=auto, verbose=True, seed=0, deterministic=True, single_cls=False, rect=False, cos_lr=False, close_mosaic=10, resume=False, amp=False, fraction=1.0, profile=False, freeze=None, multi_scale=False, overlap_mask=True, mask_ratio=4, dropout=0.0, val=False, split=val, save_json=False, save_hybrid=False, conf=None, iou=0.7, max_det=300, half=False, dnn=False, plots=True, source=None, vid_stride=1, stream_buffer=False, visualize=False, augment=False, agnostic_nms=False, classes=None, retina_masks=False, embed=None, show=False, save_frames=False, save_txt=False, save_conf=False, save_crop=False, show_labels=True, show_conf=True, show_boxes=True, line_width=None, format=torchscript, keras=False, optimize=False, int8=False, dynamic=False, simplify=False, opset=None, workspace=4, nms=False, lr0=0.01, lrf=0.01, momentum=0.937, weight_decay=0.0005, warmup_epochs=3.0, warmup_momentum=0.8, warmup_bias_lr=0.1, box=7.5, cls=0.5, dfl=1.5, pose=12.0, kobj=1.0, label_smoothing=0.0, nbs=64, hsv_h=0.015, hsv_s=0.7, hsv_v=0.4, degrees=0.0, translate=0.1, scale=0.5, shear=0.0, perspective=0.0, flipud=0.0, fliplr=0.5, bgr=0.0, mosaic=1.0, mixup=0.0, copy_paste=0.0, auto_augment=randaugment, erasing=0.4, crop_fraction=1.0, cfg=None, tracker=botsort.yaml, save_dir=runs/detect/train
+
+                   from  n    params  module                                       arguments                     
+  0                  -1  1       464  ultralytics.nn.modules.conv.Conv             [3, 16, 3, 2]                 
+  1                  -1  1      4672  ultralytics.nn.modules.conv.Conv             [16, 32, 3, 2]                
+  2                  -1  1      7360  ultralytics.nn.modules.block.C2f             [32, 32, 1, True]             
+  3                  -1  1     18560  ultralytics.nn.modules.conv.Conv             [32, 64, 3, 2]                
+  4                  -1  2     49664  ultralytics.nn.modules.block.C2f             [64, 64, 2, True]             
+  5                  -1  1     73984  ultralytics.nn.modules.conv.Conv             [64, 128, 3, 2]               
+  6                  -1  2    197632  ultralytics.nn.modules.block.C2f             [128, 128, 2, True]           
+  7                  -1  1    295424  ultralytics.nn.modules.conv.Conv             [128, 256, 3, 2]              
+  8                  -1  1    460288  ultralytics.nn.modules.block.C2f             [256, 256, 1, True]           
+  9                  -1  1    164608  ultralytics.nn.modules.block.SPPF            [256, 256, 5]                 
+ 10                  -1  1         0  torch.nn.modules.upsampling.Upsample         [None, 2, 'nearest']          
+ 11             [-1, 6]  1         0  ultralytics.nn.modules.conv.Concat           [1]                           
+ 12                  -1  1    148224  ultralytics.nn.modules.block.C2f             [384, 128, 1]                 
+ 13                  -1  1         0  torch.nn.modules.upsampling.Upsample         [None, 2, 'nearest']          
+ 14             [-1, 4]  1         0  ultralytics.nn.modules.conv.Concat           [1]                           
+ 15                  -1  1     37248  ultralytics.nn.modules.block.C2f             [192, 64, 1]                  
+ 16                  -1  1     36992  ultralytics.nn.modules.conv.Conv             [64, 64, 3, 2]                
+ 17            [-1, 12]  1         0  ultralytics.nn.modules.conv.Concat           [1]                           
+ 18                  -1  1    123648  ultralytics.nn.modules.block.C2f             [192, 128, 1]                 
+ 19                  -1  1    147712  ultralytics.nn.modules.conv.Conv             [128, 128, 3, 2]              
+ 20             [-1, 9]  1         0  ultralytics.nn.modules.conv.Concat           [1]                           
+ 21                  -1  1    493056  ultralytics.nn.modules.block.C2f             [384, 256, 1]                 
+ 22        [15, 18, 21]  1    897664  ultralytics.nn.modules.head.Detect           [80, [64, 128, 256]]          
+Model summary: 225 layers, 3157200 parameters, 3157184 gradients, 8.9 GFLOPs
+
+Transferred 355/355 items from pretrained weights
+Freezing layer 'model.22.dfl.conv.weight'
+[34m[1mtrain: [0mWARNING ⚠️ /media/ssd/datasets/coco_minitrain_25k/images/train2017/000000201706.jpg: 1 duplicate labels removed
+[34m[1mtrain: [0mWARNING ⚠️ /media/ssd/datasets/coco_minitrain_25k/images/train2017/000000214087.jpg: 1 duplicate labels removed
+[34m[1mtrain: [0mWARNING ⚠️ /media/ssd/datasets/coco_minitrain_25k/images/train2017/000000201706.jpg: 1 duplicate labels removed
+[34m[1mtrain: [0mWARNING ⚠️ /media/ssd/datasets/coco_minitrain_25k/images/train2017/000000214087.jpg: 1 duplicate labels removed
+Plotting labels to runs/detect/train/labels.jpg... 
+[34m[1moptimizer:[0m 'optimizer=auto' found, ignoring 'lr0=0.01' and 'momentum=0.937' and determining best 'optimizer', 'lr0' and 'momentum' automatically... 
+[34m[1moptimizer:[0m AdamW(lr=0.000119, momentum=0.9) with parameter groups 57 weight(decay=0.0), 64 weight(decay=0.0005), 63 bias(decay=0.0)
+Image sizes 320 train, 320 val
+Using 0 dataloader workers
+Logging results to [1mruns/detect/train[0m
+Starting training for 5 epochs...
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+                   all      25000     183544      0.626      0.419      0.456      0.314
+
+5 epochs completed in 0.234 hours.
+Optimizer stripped from runs/detect/train/weights/last.pt, 6.5MB
+Optimizer stripped from runs/detect/train/weights/best.pt, 6.5MB
+
+Validating runs/detect/train/weights/best.pt...
+Ultralytics YOLOv8.2.25 🚀 Python-3.8.10 torch-2.3.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24257MiB)
+Model summary (fused): 168 layers, 3151904 parameters, 0 gradients, 8.7 GFLOPs
+                   all      25000     183544      0.626      0.419      0.456      0.314
+                person      25000      56197      0.755      0.544      0.625      0.407
+               bicycle      25000       1516      0.613      0.303      0.346      0.194
+                   car      25000       8935      0.657      0.319      0.374      0.221
+            motorcycle      25000       1898      0.692      0.474      0.549      0.333
+              airplane      25000       1054      0.703      0.668       0.71      0.509
+                   bus      25000       1217      0.809      0.639      0.715      0.579
+                 train      25000        976      0.761      0.757      0.797      0.612
+                 truck      25000       2041       0.57      0.348      0.408       0.28
+                  boat      25000       2296      0.501      0.297      0.299      0.155
+         traffic light      25000       2637      0.614      0.251      0.292      0.147
+          fire hydrant      25000        353      0.816      0.652      0.719      0.551
+             stop sign      25000        376      0.766      0.611      0.668      0.577
+         parking meter      25000        214      0.672      0.402      0.433      0.325
+                 bench      25000       2231      0.579      0.219      0.257      0.168
+                  bird      25000       2155      0.668      0.247       0.31      0.193
+                   cat      25000       1033      0.785      0.758      0.807      0.633
+                   dog      25000       1099      0.705      0.621       0.67      0.509
+                 horse      25000       1351      0.722      0.617      0.675      0.478
+                 sheep      25000       2064      0.694      0.517      0.574      0.366
+                   cow      25000       1664      0.642      0.567      0.609      0.386
+              elephant      25000       1192      0.777      0.782      0.827      0.622
+                  bear      25000        296      0.668      0.797      0.802      0.663
+                 zebra      25000       1086      0.762      0.742        0.8      0.582
+               giraffe      25000       1085      0.835      0.824      0.869      0.695
+              backpack      25000       1854      0.368      0.138      0.137     0.0725
+              umbrella      25000       2466      0.623      0.404      0.443      0.277
+               handbag      25000       2807      0.444     0.0477     0.0903     0.0436
+                   tie      25000       1273      0.639      0.344       0.37      0.228
+              suitcase      25000       1309      0.377      0.523      0.426      0.277
+               frisbee      25000        573      0.719      0.529      0.601      0.414
+                  skis      25000       1438      0.561      0.239      0.277       0.13
+             snowboard      25000        570      0.521      0.354      0.372      0.238
+           sports ball      25000       1363       0.79      0.262      0.322      0.184
+                  kite      25000       1859      0.606      0.443      0.459      0.278
+          baseball bat      25000        713      0.547      0.303      0.333      0.156
+        baseball glove      25000        842      0.652      0.355      0.384      0.211
+            skateboard      25000       1255      0.651      0.506      0.526      0.315
+             surfboard      25000       1197      0.577      0.452      0.478      0.294
+         tennis racket      25000       1081      0.576      0.535      0.559       0.32
+                bottle      25000       5213      0.599      0.216      0.271      0.154
+            wine glass      25000       1664       0.65      0.248      0.311      0.181
+                   cup      25000       4497      0.605      0.314      0.361      0.248
+                  fork      25000       1265      0.499      0.199      0.223      0.136
+                 knife      25000       1737      0.476      0.134      0.158     0.0927
+                 spoon      25000       1373      0.547     0.0896       0.12     0.0749
+                  bowl      25000       3232      0.615      0.351      0.408      0.297
+                banana      25000       2221      0.496      0.311      0.325      0.196
+                 apple      25000       1378      0.488      0.287      0.288      0.204
+              sandwich      25000       1058      0.514      0.476      0.485      0.351
+                orange      25000       1464       0.45      0.393      0.357      0.261
+              broccoli      25000       1554      0.577       0.32      0.401      0.238
+                carrot      25000       1559      0.418      0.319      0.286      0.164
+               hot dog      25000        715      0.533      0.494      0.479      0.335
+                 pizza      25000       1175      0.699       0.63      0.674      0.541
+                 donut      25000       1545      0.644      0.529      0.565      0.415
+                  cake      25000       1307        0.6      0.419      0.463      0.311
+                 chair      25000       8238      0.549      0.257      0.308      0.184
+                 couch      25000       1231      0.611      0.483      0.535      0.388
+          potted plant      25000       1859       0.55      0.252      0.296      0.159
+                   bed      25000        937      0.683      0.668      0.725      0.556
+          dining table      25000       3453      0.642      0.454      0.487      0.347
+                toilet      25000        887      0.716      0.768      0.797      0.635
+                    tv      25000       1175      0.705      0.624       0.69      0.497
+                laptop      25000       1060      0.694      0.611       0.66      0.521
+                 mouse      25000        441      0.559       0.46      0.473      0.333
+                remote      25000       1204      0.525       0.18       0.22      0.129
+              keyboard      25000        571      0.522      0.548      0.545      0.383
+            cell phone      25000       1311       0.57      0.253      0.266      0.178
+             microwave      25000        367      0.719      0.559       0.63       0.44
+                  oven      25000        698      0.602      0.444      0.495      0.346
+               toaster      25000         46          1          0      0.113     0.0658
+                  sink      25000       1259      0.573      0.406      0.412       0.26
+          refrigerator      25000        623      0.703      0.546      0.627      0.487
+                  book      25000       5101      0.425     0.0796      0.123     0.0571
+                 clock      25000       1338      0.714        0.5      0.547      0.359
+                  vase      25000       1428      0.649      0.366      0.423      0.301
+              scissors      25000        326      0.347      0.307      0.285      0.188
+            teddy bear      25000       1027      0.709      0.484      0.563      0.387
+            hair drier      25000         40          1          0     0.0324     0.0243
+            toothbrush      25000        401       0.49      0.122      0.148     0.0899
+Speed: 0.0ms preprocess, 0.2ms inference, 0.0ms loss, 0.2ms postprocess per image
+Results saved to [1mruns/detect/train[0m
+      epoch    Start_time     Stop_time  epochtime_ms    log_time
+0         0  1.717177e+09  1.717177e+09    757.476330    4.912234
+1         0  1.717177e+09  1.717177e+09     30.669928    5.273802
+2         0  1.717177e+09  1.717177e+09     30.391455    5.697786
+3         0  1.717177e+09  1.717177e+09     30.009031    6.061676
+4         0  1.717177e+09  1.717177e+09     30.070543    6.154555
+...     ...           ...           ...           ...         ...
+7810      4  1.717177e+09  1.717177e+09     30.620098  730.506516
+7811      4  1.717177e+09  1.717177e+09     27.537584  730.599059
+7812      4  1.717177e+09  1.717177e+09     27.979851  730.688440
+7813      4  1.717177e+09  1.717177e+09     27.382135  730.779225
+7814      4  1.717177e+09  1.717177e+09     22.536039  730.833786
+
+[7815 rows x 5 columns]

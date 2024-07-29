@@ -1,0 +1,22 @@
+3
+Executing main function now!
+torch.Size([11873, 512])
+torch.Size([11873, 512])
+torch.Size([11873, 512])
+torch.Size([11873])
+torch.Size([11873])
+Reference Time is 1717758311.480364
+No. of testing batches = 743
+No of workers is 4
+Prefetch factor is 2
+Batch size is  16
+Epoch 1
+Epoch: 0 Ends
+Epoch 2
+Epoch: 1 Ends
+Epoch 3
+Epoch: 2 Ends
+Epoch 4
+Epoch: 3 Ends
+Epoch 5
+Epoch: 4 Ends

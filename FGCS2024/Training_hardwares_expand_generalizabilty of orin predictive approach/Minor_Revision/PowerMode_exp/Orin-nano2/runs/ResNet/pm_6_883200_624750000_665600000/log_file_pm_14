@@ -1,0 +1,12 @@
+SOC family:tegra234  Machine:NVIDIA Orin Nano Developer Kit
+Online CPUs: 0-5
+cpu0: Online=1 Governor=schedutil MinFreq=883200 MaxFreq=883200 CurrentFreq=883200 IdleStates: WFI=0 c7=0 
+cpu1: Online=1 Governor=schedutil MinFreq=883200 MaxFreq=883200 CurrentFreq=883200 IdleStates: WFI=0 c7=0 
+cpu2: Online=1 Governor=schedutil MinFreq=883200 MaxFreq=883200 CurrentFreq=883200 IdleStates: WFI=0 c7=0 
+cpu3: Online=1 Governor=schedutil MinFreq=883200 MaxFreq=883200 CurrentFreq=883200 IdleStates: WFI=0 c7=0 
+cpu4: Online=1 Governor=schedutil MinFreq=883200 MaxFreq=883200 CurrentFreq=883200 IdleStates: WFI=0 c7=0 
+cpu5: Online=1 Governor=schedutil MinFreq=883200 MaxFreq=883200 CurrentFreq=883200 IdleStates: WFI=0 c7=0 
+GPU MinFreq=624750000 MaxFreq=624750000 CurrentFreq=624750000
+EMC MinFreq=204000000 MaxFreq=665600000 CurrentFreq=665600000 FreqOverride=1
+FAN Dynamic Speed control=inactive hwmon2_pwm1=255
+NV Power Mode: pm_new

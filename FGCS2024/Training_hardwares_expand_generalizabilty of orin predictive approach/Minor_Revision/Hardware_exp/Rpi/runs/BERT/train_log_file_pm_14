@@ -1,0 +1,8 @@
+3
+Executing main function now!
+torch.Size([11873, 512])
+torch.Size([11873, 512])
+torch.Size([11873, 512])
+torch.Size([11873])
+torch.Size([11873])
+Epoch 1

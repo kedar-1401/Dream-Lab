@@ -1,0 +1,4 @@
+files,directories,resident_pages,resident_pages_size,resident_pages_%,elapsed,redundant,log_time
+23080,1,22338/722637,87M/2G,3.09%,2.5249,seconds,43.96760559082031
+23080,1,0/722637,0/2G,0%,4.5383,seconds,52.43904399871826
+23080,1,21713/722637,84M/2G,3%,2.3427,seconds,251.30270791053772

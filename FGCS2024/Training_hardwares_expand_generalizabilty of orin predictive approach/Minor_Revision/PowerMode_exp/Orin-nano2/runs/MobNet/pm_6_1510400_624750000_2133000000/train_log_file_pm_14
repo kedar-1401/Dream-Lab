@@ -1,0 +1,52 @@
+3
+/media/ssd/data/
+Shape = torch.Size([1, 203])
+No. of model parameters = 4131561
+No. of training batches = 1443
+No. of testing batches = 123
+No of workers is 4
+Prefetch factor is 2
+Training
+Epoch: 0 Begins
+Start time : 1717977182.157013
+Batch index = 0
+Batch index = 1
+Batch index = 2
+Batch index = 3
+Batch index = 4
+Batch index = 5
+Batch index = 6
+Batch index = 7
+Batch index = 8
+Batch index = 9
+Batch index = 10
+Batch index = 11
+Batch index = 12
+Batch index = 13
+Batch index = 14
+Batch index = 15
+Batch index = 16
+Batch index = 17
+Batch index = 18
+Batch index = 19
+Batch index = 20
+Batch index = 21
+Batch index = 22
+Batch index = 23
+Batch index = 24
+Batch index = 25
+Batch index = 26
+Batch index = 27
+Batch index = 28
+Batch index = 29
+Batch index = 30
+Batch index = 31
+Batch index = 32
+Batch index = 33
+Batch index = 34
+Batch index = 35
+Batch index = 36
+Batch index = 37
+Batch index = 38
+Batch index = 39
+Epoch: 0 Ends

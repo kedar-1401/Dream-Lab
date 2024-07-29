@@ -1,0 +1,17 @@
+r/s,w/s,rkB/s,wkB/s,rrqm/s,wrqm/s,%rrqm,%wrqm,r_await,w_await,aqu-sz,rareq-sz,wareq-sz,svctm,%util,log_time
+r/s,rkB/s,rrqm/s,%rrqm,r_await,rareq-sz,w/s,wkB/s,wrqm/s,%wrqm,w_await,wareq-sz,d/s,dkB/s,drqm/s,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,2.082517623901367
+r/s,rkB/s,rrqm/s,%rrqm,r_await,rareq-sz,w/s,wkB/s,wrqm/s,%wrqm,w_await,wareq-sz,d/s,dkB/s,drqm/s,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,3.2975518703460693
+r/s,rkB/s,rrqm/s,%rrqm,r_await,rareq-sz,w/s,wkB/s,wrqm/s,%wrqm,w_await,wareq-sz,d/s,dkB/s,drqm/s,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,4.729869842529297
+r/s,rkB/s,rrqm/s,%rrqm,r_await,rareq-sz,w/s,wkB/s,wrqm/s,%wrqm,w_await,wareq-sz,d/s,dkB/s,drqm/s,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,5.871828079223633
+r/s,rkB/s,rrqm/s,%rrqm,r_await,rareq-sz,w/s,wkB/s,wrqm/s,%wrqm,w_await,wareq-sz,d/s,dkB/s,drqm/s,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,7.08575177192688
+r/s,rkB/s,rrqm/s,%rrqm,r_await,rareq-sz,w/s,wkB/s,wrqm/s,%wrqm,w_await,wareq-sz,d/s,dkB/s,drqm/s,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,8.289645433425903
+r/s,rkB/s,rrqm/s,%rrqm,r_await,rareq-sz,w/s,wkB/s,wrqm/s,%wrqm,w_await,wareq-sz,d/s,dkB/s,drqm/s,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,9.413865327835083
+r/s,rkB/s,rrqm/s,%rrqm,r_await,rareq-sz,w/s,wkB/s,wrqm/s,%wrqm,w_await,wareq-sz,d/s,dkB/s,drqm/s,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,10.585629940032959
+r/s,rkB/s,rrqm/s,%rrqm,r_await,rareq-sz,w/s,wkB/s,wrqm/s,%wrqm,w_await,wareq-sz,d/s,dkB/s,drqm/s,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,11.994482278823853
+r/s,rkB/s,rrqm/s,%rrqm,r_await,rareq-sz,w/s,wkB/s,wrqm/s,%wrqm,w_await,wareq-sz,d/s,dkB/s,drqm/s,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,13.204277992248535
+r/s,rkB/s,rrqm/s,%rrqm,r_await,rareq-sz,w/s,wkB/s,wrqm/s,%wrqm,w_await,wareq-sz,d/s,dkB/s,drqm/s,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,14.410504579544067
+r/s,rkB/s,rrqm/s,%rrqm,r_await,rareq-sz,w/s,wkB/s,wrqm/s,%wrqm,w_await,wareq-sz,d/s,dkB/s,drqm/s,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,15.58413577079773
+r/s,rkB/s,rrqm/s,%rrqm,r_await,rareq-sz,w/s,wkB/s,wrqm/s,%wrqm,w_await,wareq-sz,d/s,dkB/s,drqm/s,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,16.914408683776855
+r/s,rkB/s,rrqm/s,%rrqm,r_await,rareq-sz,w/s,wkB/s,wrqm/s,%wrqm,w_await,wareq-sz,d/s,dkB/s,drqm/s,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,18.18336534500122
+r/s,rkB/s,rrqm/s,%rrqm,r_await,rareq-sz,w/s,wkB/s,wrqm/s,%wrqm,w_await,wareq-sz,d/s,dkB/s,drqm/s,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,19.33361792564392
+r/s,rkB/s,rrqm/s,%rrqm,r_await,rareq-sz,w/s,wkB/s,wrqm/s,%wrqm,w_await,wareq-sz,d/s,dkB/s,drqm/s,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,20.484504461288452

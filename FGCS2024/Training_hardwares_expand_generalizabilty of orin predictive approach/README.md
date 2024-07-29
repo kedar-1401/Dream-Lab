@@ -49,6 +49,36 @@ nmcli con up Ethernet0 ifname eth0
 nmcli device status
 ```
 
+To verify 
+
+Ensure NetworkManager is set to manage the eth0 interface:
+
+```bash
+nmcli device set eth0 managed yes
+```
+
+Bring up the specific network connection:
+```bash
+sudo nmcli c up "Conn Name"
+```
+
+If you need to restart NetworkManager to apply changes:
+```bash
+sudo systemctl restart NetworkManager
+```
+
+
+For manully change the network config, you can change the below file in nano editor:
+ 
+```bash
+sudo nano /etc/network/interfaces
+```
+
+Restart NetworkManager to apply changes made in the configuration file:
+```bash
+sudo service network-manager restart
+```
+
 If not worked try this
 
 https://itslinuxfoss.com/set-up-static-ip-address-debian-12-linux/
